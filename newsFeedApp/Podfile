@@ -1,0 +1,11 @@
+ platform :ios, '9.0'
+use_frameworks!
+
+target 'newsFeedApp' do
+  pod 'RealmSwift'
+  pod 'UIScrollView-InfiniteScroll', '~> 1.0.0'	
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+  pod 'YYWebImage'
+  pod 'SVProgressHUD'
+end
